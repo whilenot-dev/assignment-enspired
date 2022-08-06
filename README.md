@@ -43,8 +43,8 @@ Installation of Python3.10 or newer.
 Clone the repo and set it as CWD with:
 
 ```bash
-$ git clone https://github.com/whilenot-dev/assignement-enspired
-$ cd assignement-enspired
+$ git clone https://github.com/whilenot-dev/assignment-enspired
+$ cd assignment-enspired
 ```
 
 Run the solution with:
