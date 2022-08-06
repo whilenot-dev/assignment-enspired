@@ -16,19 +16,22 @@ We now need a command line tool that reads in such a file and outputs the follow
 - Number of different chair types per room
 
 The different types of chairs are as follows:
-W: wooden chair
-P: plastic chair
-S: sofa chair
-C: china chair
+
+- W: wooden chair
+- P: plastic chair
+- S: sofa chair
+- C: china chair
 
 The output must look like this so that it can be read in with the old system:
 
+```txt
 total:
 W: 3, P: 2, S: 0, C: 0
 living room:
 W: 3, P: 0, S: 0, C: 0
 office:
 W: 0, P: 2, S: 0, C: 0
+```
 
 The names of the rooms must be sorted alphabetically in the output.
 
