@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+
+DIR=$( dirname "$( realpath "$0" )" )
+REPO_DIR="$DIR/.."
+
+"${REPO_DIR}/main.py" < "${REPO_DIR}/data/rooms.txt"
