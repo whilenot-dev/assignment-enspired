@@ -1,3 +1,5 @@
+# Assignment for enspired GmbH
+
 Apartment And Chair Delivery Limited has a unique position on the housing market. The company not only builds apartments, but also equips them with chairs.
 Now the business has grown continuously over the past few years and there are a few organizational problems that could be solved by automation.
 We will focus on one of them here:
@@ -9,6 +11,7 @@ In the recent past, when manually counting the various types of chairs in the fl
 Unfortunately, the plans are in a very old format (the company's systems are still from the eighties), so modern planning software cannot be used here. An example of such an apartment plan is attached.
 
 We now need a command line tool that reads in such a file and outputs the following information:
+
 - Number of different chair types for the apartment
 - Number of different chair types per room
 
@@ -30,3 +33,22 @@ W: 0, P: 2, S: 0, C: 0
 The names of the rooms must be sorted alphabetically in the output.
 
 Our sales team has promised Apartment And Chair Delivery Limited a solution within 5 days from now. I know that is very ambitious, but as you are our best developer, we all count on you.
+
+## Prerequisites
+
+Installation of Python3.10 or newer.
+
+## Usage
+
+Clone the repo and set it as CWD with:
+
+```bash
+$ git clone https://github.com/whilenot-dev/assignement-enspired
+$ cd assignement-enspired
+```
+
+Run the solution with:
+
+```bash
+$ ./bin/run
+```
